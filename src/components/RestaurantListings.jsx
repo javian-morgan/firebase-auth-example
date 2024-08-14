@@ -76,8 +76,6 @@ export default function RestaurantListings({
 		routerWithFilters(router, filters);
 	}, [filters]);
 	
-	//Me
-	/*
 	useEffect(() => {
 		const unsubscribe = getRestaurantsSnapshot(data => {
 			setRestaurants(data);
@@ -87,7 +85,7 @@ export default function RestaurantListings({
 			unsubscribe();
 		};
 	}, [filters]);
-*/
+
 	return (
 		<article>
 			<Filters filters={filters} setFilters={setFilters} />
