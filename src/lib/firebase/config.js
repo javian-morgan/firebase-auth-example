@@ -15,7 +15,6 @@ Object.keys(config).forEach((key) => {
   }
 });
 
-
 // This tutorial is doing too much with the yaml thing
 // Took this straight from CLI and set export to be this config
 const config2 = {
