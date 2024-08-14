@@ -15,4 +15,16 @@ Object.keys(config).forEach((key) => {
   }
 });
 
-export const firebaseConfig = config;
+
+// This tutorial is doing too much with the yaml thing
+// Took this straight from CLI and set export to be this config
+const config2 = {
+  apiKey: "AIzaSyAX5T1P2FxgRTJizhmGm3RmXRK0dcdNGMQ",
+  authDomain: "frienlyeats-codelab-e0fb1.firebaseapp.com",
+  projectId: "frienlyeats-codelab-e0fb1",
+  storageBucket: "frienlyeats-codelab-e0fb1.appspot.com",
+  messagingSenderId: "324549270019",
+  appId: "1:324549270019:web:53f96e6f98ebee10d24c36"
+};
+
+export const firebaseConfig = config2;
